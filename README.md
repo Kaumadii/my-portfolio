@@ -1,4 +1,4 @@
-# My Portfolio - Next.js Edition
+# My Portfolio
 
 A modern, responsive portfolio website built with Next.js, Tailwind CSS, shadcn/ui, and Framer Motion, ready for deployment on Vercel.
 

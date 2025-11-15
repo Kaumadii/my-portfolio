@@ -7,20 +7,15 @@ import { School, Award } from 'lucide-react'
 const educationItems = [
   {
     icon: School,
-    year: '2020 - 2024',
-    degree: 'Bachelor of Science in Computer Science',
-    institution: 'University Name',
-    description:
-      'Relevant coursework: Data Structures, Algorithms, Web Development, Database Systems, Software Engineering',
-    gpa: 'GPA: 3.8/4.0',
+    year: '2023 - Present',
+    degree: 'Bsc.(Hons) in Computing & Information Systems',
+    institution: 'Sabaragamuwa university of Sri Lanka',
   },
   {
-    icon: Award,
-    year: '2018 - 2020',
-    degree: 'High School Diploma',
-    institution: 'High School Name',
-    description: 'Focused on Mathematics, Physics, and Computer Science',
-    gpa: null,
+    icon: School,
+    year: '2021',
+    degree: 'G.C.E Advanced Level - Physical Science Stream',
+    institution: 'Central College - Anuradhapura',
   },
 ]
 

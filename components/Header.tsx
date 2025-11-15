@@ -43,8 +43,8 @@ export default function Header() {
 
   const handleDownloadCV = () => {
     const link = document.createElement('a')
-    link.href = '/cv.pdf'
-    link.download = 'cv.pdf'
+    link.href = '/CV.pdf'
+    link.download = 'Kaumadi_Amasha.pdf'
     link.target = '_blank'
     document.body.appendChild(link)
     link.click()

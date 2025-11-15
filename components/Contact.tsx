@@ -12,19 +12,19 @@ const contactInfo = [
   {
     icon: Mail,
     title: 'Email',
-    value: 'your.email@example.com',
-    href: 'mailto:your.email@example.com',
+    value: 'kaumadiama77@gmail.com',
+    href: 'mailto:kaumadiama77@gmail.com'
   },
   {
     icon: Phone,
     title: 'Phone',
-    value: '+1 (123) 456-7890',
-    href: 'tel:+11234567890',
+    value: '+94 71 097 6964',
+    href: 'tel:+94 71 097 6964',
   },
   {
     icon: MapPin,
     title: 'Location',
-    value: 'Your City, Country',
+    value: 'Colombo, Sri Lanka',
     href: '#',
   },
 ]

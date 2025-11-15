@@ -13,7 +13,7 @@ const skillCategories = [
       { name: 'HTML/CSS', progress: 90 },
       { name: 'JavaScript', progress: 85 },
       { name: 'React', progress: 80 },
-      { name: 'Vue.js', progress: 75 },
+      { name: 'Next.js', progress: 75 },
     ],
   },
   {

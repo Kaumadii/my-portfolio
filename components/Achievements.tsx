@@ -16,31 +16,24 @@ interface Achievement {
 const achievements: Achievement[] = [
   {
     icon: Trophy,
-    title: 'Certification Name',
-    description: 'Description of your achievement or certification. Add more details about what you accomplished, the skills you gained, or the impact it had.',
-    date: '2024',
-    image: '/achievements/cert1.jpg', // Add your image path here
+    title: 'Merit Award - National ICT Awards (NBQSA 2025) in Tertiary Student Project (Technology)',
+    description: 'Organized by bcs Sri Lanka Section',
+    date: 'Oct - 2025',
+    image: '/1.jpg', // Add your image path here
   },
   {
     icon: Medal,
-    title: 'Award or Recognition',
-    description: 'Description of your achievement or award. Explain what this recognition means, who awarded it, and why it\'s significant to your career.',
-    date: '2023',
-    image: '/achievements/award1.jpg', // Add your image path here
+    title: 'Winners(Proposal submission Round) - DEV{thon} 2.0',
+    description: 'Rotract Club of University of Moratuwa',
+    date: 'Apr - 2025',
+    image: '/2.jpeg', // Add your image path here
   },
   {
     icon: Star,
-    title: 'Project Recognition',
-    description: 'Description of project recognition or feature. Talk about the project, the challenges you overcame, and the results you achieved.',
-    date: '2023',
-    image: '/achievements/project1.jpg', // Add your image path here
-  },
-  {
-    icon: Award,
-    title: 'Competition Winner',
-    description: 'Description of competition or hackathon win. Share details about the competition, your team, the solution you built, and what you learned.',
-    date: '2022',
-    image: '/achievements/competition1.jpg', // Add your image path here
+    title: 'Top 10 – IEEE INSL Sabaragamuwa Province Competition 2024   ',
+    description: 'IEEE Student Branch og Sabaragamuwa University of Sri Lanka',
+    date: 'Nov - 2024',
+    image: '/3.jpeg', // Add your image path here
   },
 ]
 

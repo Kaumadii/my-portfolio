@@ -9,9 +9,9 @@ export default function About() {
   const isInView = useInView(ref, { once: true, amount: 0.3 })
 
   const infoItems = [
-    { label: 'Name:', value: 'Your Name' },
-    { label: 'Location:', value: 'Your City, Country' },
-    { label: 'Email:', value: 'your.email@example.com' },
+    { label: 'Name:', value: 'Kaumadi Amasha' },
+    { label: 'Location:', value: 'Colombo, Sri Lanka' },
+    { label: 'Email:', value: 'kaumadiama77@.com' },
     { label: 'Availability:', value: 'Open to Opportunities' },
   ]
 
@@ -30,16 +30,21 @@ export default function About() {
 
         <div ref={ref} className="grid md:grid-cols-3 gap-8 items-center mt-12">
           {/* Image */}
-          <motion.div
-            className="flex justify-center"
-            initial={{ opacity: 0, x: -50 }}
-            animate={isInView ? { opacity: 1, x: 0 } : {}}
-            transition={{ duration: 0.6 }}
-          >
-            <div className="w-full max-w-md h-96 rounded-2xl bg-gradient-to-br from-indigo-600 to-purple-600 flex items-center justify-center shadow-lg">
-              <div className="text-8xl text-white">👤</div>
-            </div>
-          </motion.div>
+<motion.div
+  className="flex justify-center"
+  initial={{ opacity: 0, x: -50 }}
+  animate={isInView ? { opacity: 1, x: 0 } : {}}
+  transition={{ duration: 0.6 }}
+>
+  <div className="w-full max-w-md h-96 rounded-2xl bg-gradient-to-br from-indigo-600 to-purple-600 flex items-center justify-center shadow-lg overflow-hidden">
+    <img
+      src="/me.jpeg"  // <-- Replace with your image filename in public folder
+      alt="Profile"
+      className="w-full h-full object-cover rounded-2xl"
+    />
+  </div>
+</motion.div>
+
 
           {/* Text Content */}
           <motion.div
@@ -49,16 +54,10 @@ export default function About() {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <p className="text-gray-600 text-lg mb-4">
-              I am a passionate and dedicated developer with a strong foundation
-              in web development and software engineering. I love creating
-              innovative solutions and turning complex problems into simple,
-              beautiful, and intuitive solutions.
+              I am a passionate Full Stack Developer specializing in the MERN stack — MongoDB, Express.js, React, and Node.js. I enjoy building dynamic and user-friendly web applications that solve real problems and provide smooth experiences. From crafting clean, responsive frontends to designing efficient and scalable backends, I love working on all parts of the development process.
             </p>
             <p className="text-gray-600 text-lg mb-6">
-              With expertise in both frontend and backend technologies, I enjoy
-              building full-stack applications that provide seamless user
-              experiences. I'm always eager to learn new technologies and improve
-              my skills.
+              What drives me is turning ideas into real products that make a difference. I’m always eager to learn new technologies, improve my skills, and take on challenges that help me grow. My goal is to create web solutions that not only work flawlessly but also bring value to users and businesses alike.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

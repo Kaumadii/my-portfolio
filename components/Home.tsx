@@ -5,9 +5,9 @@ import { Button } from '@/components/ui/button'
 import { Github, Linkedin, Mail } from 'lucide-react'
 
 const socialLinks = [
-  { icon: Github, href: 'https://github.com', label: 'GitHub' },
-  { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-  { icon: Mail, href: 'mailto:your.email@example.com', label: 'Email' },
+  { icon: Github, href: 'https://github.com/Kaumadii', label: 'GitHub' },
+  { icon: Linkedin, href: 'https://linkedin.com/in/kaumadi-amasha-783276313', label: 'LinkedIn' },
+  { icon: Mail, href: 'mailto:kaumadiama77@gmail.com', label: 'Email' },
 ]
 
 export default function Home() {
@@ -46,7 +46,7 @@ export default function Home() {
             className="text-white"
           >
             <motion.h1
-              className="text-5xl md:text-6xl font-bold mb-4 leading-tight"
+              className="text-4xl md:text-5xl font-bold mb-4 leading-tight"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
@@ -54,7 +54,7 @@ export default function Home() {
               Hi, I'm <span className="text-yellow-300">Kaumadi Amasha</span>
             </motion.h1>
             <motion.h2
-              className="text-3xl md:text-4xl mb-4 opacity-90"
+              className="text-2xl md:text-4xl mb-4 opacity-90"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
@@ -67,8 +67,8 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
             >
-              Passionate developer creating innovative solutions and building
-              amazing web experiences.
+              I love turning ideas into beautiful and functional digital products. From frontend design to backend logic, I enjoy crafting complete solutions that work fast and feel great to use.
+              I'm always exploring new tools and techniques to grow as a developer and build meaningful projects.
             </motion.p>
             <motion.div
               className="flex flex-wrap gap-4 mb-8"
@@ -121,26 +121,18 @@ export default function Home() {
           </motion.div>
 
           {/* Image Placeholder */}
-          <motion.div
-            className="flex justify-center items-center"
-            initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-          >
-            <motion.div
-              className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-white/20 backdrop-blur-sm border-4 border-white/30 flex items-center justify-center"
-              animate={{ rotate: [0, 5, -5, 0] }}
-              transition={{ duration: 6, repeat: Infinity }}
-            >
-              <motion.div
-                className="text-8xl text-white/80"
-                animate={{ scale: [1, 1.1, 1] }}
-                transition={{ duration: 3, repeat: Infinity }}
-              >
-                👤
-              </motion.div>
-            </motion.div>
-          </motion.div>
+          <div className="flex justify-center items-center">
+  <div
+    className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-white/20 backdrop-blur-sm border-4 border-white/30 flex items-center justify-center overflow-hidden"
+  >
+    <img
+      src="/me.jpeg"
+      alt="Profile"
+      className="w-full h-full object-cover"
+    />
+  </div>
+</div>
+          
         </div>
       </div>
     </section>
